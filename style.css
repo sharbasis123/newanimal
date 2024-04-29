@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/rainbow-light-watercolor-stains_125540-2250.jpg?t=st=1714412606~exp=1714416206~hmac=d823e92450c917e90207c9561466e59199c231b60b7489b6495672edbf8f86d6&w=826");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.animalhead{
+    text-align: center;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.animalmarq{
+    margin-top: 25px;
+}
+.animalmar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 40px;
+    /* border: 2px solid black; */
+}
+.animalimg img{
+    width: 550px;
+    height: 490px;
+    border-radius: 15px;
+}
+.animalbut button{
+    width: 550px;
+    height: 80px;
+    border-radius: 15px;
+    font-size: 35px;
+    font-weight: 30px;
+}
+.animalbut button:hover{
+    color: white !important;
+    background-color: black;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+    
+}
+.animalbody{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    text-align: center;
+    margin: 30px 50px;
+}
